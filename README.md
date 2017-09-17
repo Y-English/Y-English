@@ -1,2 +1,2 @@
-# Blog
-Y-English Blog
+# Y-English Blog
+http://blog.y-english.org
