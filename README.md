@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-CC4.0%20BY--NC--ND-orange.svg)](/LICENSE.md)
 
 # Y-English Blog
-[blog.y-english.org](http://blog.y-english.org)
+Website: [blog.y-english.org](http://blog.y-english.org)
 
 ## License
 Except where otherwise noted, licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License](/LICENSE.md)
