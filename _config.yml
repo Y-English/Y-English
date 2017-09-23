@@ -1,0 +1,44 @@
+analytics:
+  google:
+    id: UA-84829010-5
+
+repository: https://github.com/Y-English/Y-English-Blog
+
+timezone: Asia/Shanghai
+lang: zh_CN
+
+title: 云英语
+description: Y-English
+keywords: 云英语, Y-English, Vocanulary Builder, VB, Y-GRE, GRE, Blog, Education
+url: http://blog.y-english.com
+
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: 云英语
+organization_url: https://y-english.org
+
+contact: dev[at]y-english[dot]org
+
+image: /images/logo-blue.png
+logo: /images/logo-dark.png
+
+permalink: /article/:year/:month/:day/:title.html
+
+paginate: 5
+paginate_path: /articles/:num/
+
+plugins:
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE.md
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
