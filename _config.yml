@@ -22,7 +22,9 @@ contact: dev[at]y-english[dot]org
 image: /images/logo-blue.png
 logo: /images/logo-dark.png
 
-permalink: /article/:year/:month/:day/:title.html
+permalink: /article/:year/:month/:day/:title
+
+excerpt_separator: <!--more-->
 
 paginate: 5
 paginate_path: /articles/:num/

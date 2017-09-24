@@ -20,7 +20,7 @@ Y-GRE采用反转式学习——视频研修结合人工指导干预，研修者
 
 Y-GRE平台由8小时总论与按学科内容划分的9个单元组成。前3单元100小时，对成绩贡献度60%；中间3单元100小时，贡献度30%；后3单元100小时，贡献度10%。
 
-![Framework]({{ site.url }}/images/y-gre/framework.jpg)
+![Framework](/images/y-gre/framework.jpg)
 
 上图为Y-GRE平台研修者备考框架示例，一般1个月左右，即可达成目标分数。
 
@@ -36,7 +36,7 @@ ETS虽宣称GRE考试无学科偏向性，但因其文章source均来自于各�
 
 ### 预测式图景阅读
 
-![Picture Reading]({{ site.url }}/images/y-gre/picture-reading.jpg)
+![Picture Reading](/images/y-gre/picture-reading.jpg)
 
 取消类比与反义体型以后，新GRE强化了对进行性阅读预测的考察（文字推理）。想在新GRE考试中取得高分，最关键的一点是要“善解题意”——做一个预测式图景阅读者，即在答题的过程中，不仅读懂文本的字面意思，更深挖出文本的潜音深意（undertone），并结合学科背景和ETS的命题模式（pattern），预测题目思路走向（prediction），通过同义旁述（paraphrase）来把握全文的论述结构（argumentation structure），并最终生成完整图景（holistic picture），预设出正确答案。
 
@@ -46,7 +46,7 @@ GRE命题高度依赖于Sourcefinder和Sourcerater等自动化软件，ETS公开
 
 ### 高拟合度的最终GRE成绩预测评估模型
 
-![Score]({{ site.url }}/images/y-gre/score.png)
+![Score](/images/y-gre/score.png)
 
 Y-GRE-003开始，我们便利用已有Y-GRE内部数据和最终成绩反馈进行开始尝试建立动态的分数预测模型。根据现有预测公式，多数情况下，预测分数与最终分数的误差不超过2分。实际上，更为有用的是，这个预测评估模型还能够指导备考者了解自己可能的分数天花板，并因此可以选择性价比最高的时间投入方案。
 
@@ -60,9 +60,9 @@ Y-GRE-003开始，我们便利用已有Y-GRE内部数据和最终成绩反馈进
 - V-Builder 170-2
 - V-Builder 170-3
 
-![Structure]({{ site.url }}/images/y-gre/structure.jpg)
+![Structure](/images/y-gre/structure.jpg)
 
-![Subjects]({{ site.url }}/images/y-gre/subjects.jpg)
+![Subjects](/images/y-gre/subjects.jpg)
 
 #### V-Builder 170 Practice Sets（12 in total）
 

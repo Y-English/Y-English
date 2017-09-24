@@ -1,0 +1,65 @@
+---
+layout: post
+title: "What is PIE?"
+description: "The Proto-Indo-European language is a reconstructed language. It is the common ancestor of a group of languages that includes ancient Latin, Greek and Sanskrit, and modern English, French, German, Russian, Persian, Hindi and many others, which share many common features."
+---
+
+The Proto-Indo-European language is a reconstructed language. It is the common ancestor of a group of languages that includes ancient Latin, Greek and Sanskrit, and modern English, French, German, Russian, Persian, Hindi and many others, which share many common features. This group of languages forms the so-called the Indo-European language family. Not all languages in Europe belong to this family: Basque, Finnish, Hungarian and Turkish are not Indo-European languages. Some Asiatic languages, like many spoken at different times in modern Iran, India and even Chinese Xinjiang belong to this group too. Other famous language families are Hamito-semitic (Arabic, Hebrew), Sino-Tibetan (Chinese, Tibetan, Burmese), Altaic (Turkish, Japanese, Korean).
+
+<!--more-->
+
+![Figure 1: The Indo-European World](/images/posts/2011-05-27-1.jpg)
+
+A few vocabulary items are still common to virtually all members of this language family. Please compare:
+
+- English: `three`, `mother`, `foot`
+- French: `trois`, `mère`, `pied`
+- German: `drei`, `mutter`, `fuss`
+- Russian: `tri`, `mat'`, `(-)`
+- Persian: `tih`, `mātar`, `pā`
+- Hindi: `tīn`, `mām`, `pair`
+
+The existence of the language was first postulated in the 18th century by Sir William Jones, who while working in India observed the similarities between Sanskrit, Ancient Greek, and Latin. By the early 20th century, a general sketch of the Proto-Indo-European language had been clearly made. There is unanimous academic agreement about the existence of this proto-language. The most widespread theory holds that the separation occurred around 3700 BC, before which the people who spoke the language lived somewhere in the grasslands of Eastern Europe and Western Asia (approximately in modern Ukraine).
+
+![Figure 2 :"Five" in different Indo-European languages.](/images/posts/2013-05-27-2.png)
+
+Proto-Indo-European had a complex system of morphology that included verbal conjugation and nominal declension. This means that the affixes added to the root serve to indicate a variety of new information. For example, in ancient Sanskrit, vanaḥ means "the forest", but vane means "in the forest" and vanāt "out from the forest". Among verbs, vakti means "he says", uvāca "he said already", avak "he was saying", vakṣyati "he will say", vivakṣati "he wants to say", avivakṣat "he was wanting to say". Relationships to other language families, including the Uralic languages, have been proposed, but nothing has been proved scientifically.
+
+Indo-European linguistics aided greatly the development of comparative linguistics, and inspired the application of the same method to other language families.
+
+## Sources
+
+- FORTSON, Benjamin W, Indo-European Language and Culture. Blackwell Publishing，2004.
+- MALLORY, J. P.; Adams, D. Q.The Oxford Introduction to Proto-Indo-European and the Proto-Indo-European World. Oxford: Oxford University Press, 2006.
+- WATKINS, Calvert,The American Heritage Dictionary of Indo-European Roots, Houghton Mifflin Harcourt, 2000
+
+## Useful links
+
+- "Say something in Proto-Indo-European" by Geoffrey Sampson: http://www.grsampson.net/Q_PIE.html
+- The Indo-European Documentation Center at the University of Texas: http://www.utexas.edu/cola/centers/lrc/
+- Database query for Julius Pokorny's Dictionary of Indo-European Roots: http://dnghu.org/en/Indo-European%20etymological%20dictionary/
+
+---
+
+## 什么叫PIE?
+
+原始印欧语（英Proto-Indo-European）是一门重建、拟构的语言。它是欧洲和亚洲诸多语言共同的祖先，其中有古代的拉丁文、希腊文和梵文，现代的英语、法语、德语、俄语、波斯语、印地语等等。这些语言有许多不能偶然而生的共同特征，所以语言学家假设曾经存在一种祖先语言，因此通过衍生语言的比较研究来重建它：以原是印欧语为来源的衍生语言形成所谓的印欧语系。当然，并非所有的欧洲语言都属于本语系：巴斯克语，芬兰语，匈牙利语和土耳其语都不属于印欧语系。同时，不少亚洲语言，像现代伊朗、阿富汗、印度和中国新疆等地区古今所用的语言也属于印欧语系。其他重要的语系有闪米特语系（阿拉伯语、希伯来语），汉藏语系（汉语、藏语、缅甸语），阿尔泰语系（土耳其语，很可能日语、韩语也属于该语系）。
+
+![Figure 1: The Indo-European World](/images/posts/2013-05-27-1.jpg)
+
+到现在，不同印欧语言有若干几乎相同的单词。请比较：
+
+- 英语：`three`, `mother`, `foot`
+- 法语：`trois`, `mère`, `pied`
+- 德语：`drei`, `Mutter`, `Fuss`
+- 俄语：`tri`, `mat'`, `(-)`
+- 波斯语：`tih`, `mātar`, `pā`
+- 印地语：`tīn`, `mām`, `pair`
+
+18世纪英国学者Sir William Jones，在印度工作时发现梵文、古希腊和拉丁文间有惊人的相似性。20世纪初，学者们已经能够描述原始印欧语的大概总体形状。现在，原始印欧语的存在学术界受到一致的赞同。最普遍的理论是，原始印欧语约在公元前3700年分离成各种的衍生语言。至于之前的情况，原始印欧语的使用者——即原始印欧人作为牧民生活在东欧和西亚的草原（约在现代乌克兰）。
+
+![Figure 2 :"Five" in different Indo-European languages.](/images/posts/2013-05-27-2.png)
+
+原始印欧语的形变比较复杂，包括名词、形容词、代词的变格和动词的变位：这就是说，加在词根上的词缀用于表示各种新信息。比如，在古老的梵文里，vanaḥ是“森林”的意思，但是vane意味着“在森林中”，vanāt“从森林中出来”。至于动词——即最丰富的形变范畴，vakti是 “他说”，uvāca“他已经说了”，avak“他曾经在说”，vakṣyati“他将说”，vivakṣati“他想说”，avivakṣat“他曾经想说”，等等（实际上，一个梵文动词理论上一共可以有近乎一千种不同的形式！）。至于和其他语系的关系，有的学者建议，印欧语系和乌拉尔语系有共同的来源，却还没有科学证明。
+
+有关印欧语言学的研究对比较语言学的发展提供了很大的帮助，并激发学者们使用比较方法来分析其他语系的语言以及重建其共同祖先语言。

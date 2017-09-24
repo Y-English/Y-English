@@ -4,7 +4,7 @@ title: 云英语团队主要成员
 permalink: team/
 ---
 
-![Team]({{ site.url }}/images/team/team.jpg)
+![Team](/images/team/team.jpg)
 
 ## 李浩
 
@@ -54,6 +54,8 @@ permalink: team/
 ## 于泰涵
 
 浙江大学管理学院毕业。熟练掌握HTML、CSS、JavaScript、jQuery、PHP、MySQL等多种网页、编程与数据库语言。
+
+---
 
 ## 此外特别鸣谢以下几位的参与和贡献
 

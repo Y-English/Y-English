@@ -16,13 +16,13 @@ Rote Learning是儒教背景下常见的学习模式，学习实践、理论模�
 
 从原始印欧语PIE演化成主要三支：日耳曼、拉丁、及希腊。这三支构成了当代英文词汇的90+%。因此除了应用语言学规律的直接对应识别并掌握生词，我们更可以基于同一个PIE词基（PIE root）来构建其下属衍生的全部英文词汇，形成一种接近词义本质的系统性词汇网状扩增。而且因为这种广度扩增是基于i+1关联理解认知规律，故而不存在机械硬背的遗忘问题，更规避了含义偏差问题。如此构建的词汇大厦坚如磐石，终身可用。
 
-![PIE]({{ site.url }}/images/vb/pie.jpg)
+![PIE](/images/vb/pie.jpg)
 
 ## 研修系统
 
 云英语新一代研修预约系统于2017暑假正式上线，为大家带来更便捷高效的研修体验。云英语新系统包括iPad借阅管理及信息登记板块，在线报名注册管理板块，在线备考框架及全流程进度管理及分析反馈板块，分级查房及反馈记录管理板块，团报及积分系统板块，站内通知及邮件板块。
 
-![Profile]({{ site.url }}/images/vb/profile.jpg)
+![Profile](/images/vb/profile.jpg)
 
 ## 研修形式
 
@@ -44,10 +44,10 @@ VB与Y-GRE联合报名：基准费用是12800元（校友社区）和14800（周
 
 ### VB研修注册
 
-![Registration]({{ site.url }}/images/vb/registration-1.jpg)
+![Registration](/images/vb/registration-1.jpg)
 
 ### VB与Y-GRE联合报名
 
-![Registration]({{ site.url }}/images/vb/registration-2.jpg)
+![Registration](/images/vb/registration-2.jpg)
 
 **云英语保留对各项实施细节合理调整的权利，有进一步咨询可致电：400-876-3898 或 010-82863898。**

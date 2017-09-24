@@ -26,19 +26,18 @@
     padding: 2em 0em;
 }
 
-.ui.text.container p {
+.ui.post-content.text.container p {
     text-indent: 2em;
 }
-.ui.text.container blockquote {
+.ui.post-content.text.container blockquote {
     color: #767676;
-    font-style: italic;
     padding: 0 1em;
     border-left: 0.25em solid #DCDDDE;
 }
-.ui.text.container blockquote p {
+.ui.post-content.text.container blockquote p {
     text-indent: 0;
 }
-.ui.text.container p img {
+.ui.post-content.text.container p img {
     display: block;
     width: 100%;
     height: auto;
