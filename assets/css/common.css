@@ -1,7 +1,12 @@
 /* common.css */
 
-.ui.logo.image {
-    width: 125px;
+.logo-image {
+    width: 35px;
+}
+.logo-text {
+    margin-left: 5px;
+    font-size: 2em;
+    color: #1B1C1D;
 }
 
 .ui.basic.vertical.segment {
@@ -32,6 +37,11 @@
 }
 .ui.text.container blockquote p {
     text-indent: 0;
+}
+.ui.text.container p img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .ui.post-meta.text.container div{
