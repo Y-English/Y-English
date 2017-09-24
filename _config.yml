@@ -22,7 +22,7 @@ contact: dev[at]y-english[dot]org
 image: /images/logo-blue.png
 logo: /images/logo-dark.png
 
-permalink: /article/:year/:month/:day/:title
+permalink: /article/:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 
