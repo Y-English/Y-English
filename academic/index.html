@@ -2,3 +2,20 @@
 layout: default
 academic: true
 ---
+
+<div class="ui basic vertical post segment">
+    <div class="ui text container">
+        <div class="ui divided items">
+            {% for post in site.academic_posts reversed %}
+                <div class="item">
+                    <a class="image" href="{{ post.url }}"><img src="{% if post.thumbnail %}{{ post.thumbnail }}{% else %}{{ 'images/image.png' | relative_url }}{% endif %}" alt="thumbnail"></a>
+                    <div class="content">
+                        <a class="header" href="{{ post.url }}">{{ post.title }}</a>
+                        <div class="description">{{ post.excerpt }}</div>
+                        <div class="extra"><a href="{{ post.url }}">Keep reading...</a></div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
