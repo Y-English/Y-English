@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: 云英语团队主要成员
 permalink: team/
+team: true
 ---
 
 ![Team](/images/team/team.jpg)

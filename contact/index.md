@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: 联系我们
 permalink: contact/
+contact: true
 ---
 
 ## 研修基地

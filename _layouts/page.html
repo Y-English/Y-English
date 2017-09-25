@@ -4,7 +4,6 @@ layout: default
 <div class="ui basic vertical post segment">
     <div class="ui center aligned text post-title container">
         <div class="ui header">{{ page.title }}</div>
-        <div class="text-grey">{{ page.date | date_to_long_string }}</div>
     </div>
     <div class="ui text post-content container">
         {% if page.thumbnail %}<p><img src="{{ page.thumbnail }}" alt="thumbnail"></p>{% endif %}

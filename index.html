@@ -1,5 +1,6 @@
 ---
 layout: default
+news: true
 ---
 
 <div class="ui basic vertical post segment">
@@ -11,7 +12,7 @@ layout: default
                     <div class="content">
                         <a class="header" href="{{ post.url }}">{{ post.title }}</a>
                         <div class="meta">{{ post.date | date_to_long_string }}</div>
-                        <div class="description">{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt}}{% endif %}</div>
+                        <div class="description">{{ post.excerpt }}</div>
                         <div class="extra"><a href="{{ post.url }}">Keep reading...</a></div>
                     </div>
                 </div>

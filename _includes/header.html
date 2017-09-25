@@ -6,12 +6,14 @@
                 <span class="logo-text">云英语</span>
             </a>
             <div class="right menu">
-                <a class="item" href="{{ '/vb/' | relative_url }}">VB研修指南</a>
-                <a class="item" href="{{ '/y-gre/' | relative_url }}">Y-GRE研修指南</a>
-                <a class="item" href="{{ '/academic/' | relative_url }}">学术文章</a>
-                <a class="item" href="{{ '/feedback/' | relative_url }}">研修感言</a>
-                <a class="item" href="{{ '/team/' | relative_url }}">云英语团队</a>
-                <a class="item" href="{{ '/contact/' | relative_url }}">联系我们</a>
+                <a class="{% if page.news %}active {% endif %}item" href="{{ '/' | relative_url }}">新闻</a>
+                <a class="{% if page.perspective %}active {% endif %}item" href="{{ '/perspective/' | relative_url }}">观点</a>
+                <a class="{% if page.academic %}active {% endif %}item" href="{{ '/academic/' | relative_url }}">学术</a>
+                <a class="{% if page.feedback %}active {% endif %}item" href="{{ '/feedback/' | relative_url }}">感言</a>
+                <a class="{% if page.vb %}active {% endif %}item" href="{{ '/vb/' | relative_url }}">VB简介</a>
+                <a class="{% if page.y_gre %}active {% endif %}item" href="{{ '/y-gre/' | relative_url }}">Y-GRE简介</a>
+                <a class="{% if page.team %}active {% endif %}item" href="{{ '/team/' | relative_url }}">云英语团队</a>
+                <a class="{% if page.contact %}active {% endif %}item" href="{{ '/contact/' | relative_url }}">联系我们</a>
             </div>
         </div>
     </div>
