@@ -32,13 +32,13 @@ paginate_path: /posts/:num/
 collections:
   perspective_posts:
     output: true
-    permalink: /perspective/post/:name
+    permalink: /perspective/post/:name/
   academic_posts:
     output: true
-    permalink: /academic/post/:name
+    permalink: /academic/post/:name/
   feedback_posts:
     output: true
-    permalink: /feedback/post/:name
+    permalink: /feedback/post/:name/
 
 defaults:
   - scope:
