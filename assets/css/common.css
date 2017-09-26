@@ -1,5 +1,9 @@
 /* common.css */
 
+.ui.text.menu .toc.item {
+    display: none;
+}
+
 .logo-image {
     width: 35px;
 }
@@ -51,6 +55,17 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .ui.basic.masthead.segment {
+        padding: 0em;
+    }
+    .ui.text.menu .item,
+    .ui.text.menu .menu {
+        display: none;
+    }
+    .ui.text.menu .toc.item {
+        display: block;
+    }
+
     .ui.error.header {
         font-size: 4em;
     }

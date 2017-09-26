@@ -15,9 +15,12 @@
     {% include analytics.html %}
 </head>
 <body>
-    {% include header.html %}
-    {{ content }}
-    {% include footer.html %}
+    {% include sidebar.html %}
+    <div class="pusher">
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+    </div>
     <script type="text/javascript" src="//unpkg.com/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="//unpkg.com/semantic-ui/dist/semantic.min.js"></script>
     <script type="text/javascript" src="{{ '/assets/js/common.js' | relative_url }}"></script>
