@@ -31,6 +31,9 @@ paginate: 5
 paginate_path: /posts/:num/
 
 collections:
+  album_posts:
+    output: true
+    permalink: /album/post/:name/
   perspective_posts:
     output: true
     permalink: /perspective/post/:name/
@@ -48,6 +51,12 @@ defaults:
     values:
       layout: post
       news: true
+  - scope:
+      path: ""
+      type: album_posts
+    values:
+      layout: page
+      album: true
   - scope:
       path: ""
       type: perspective_posts
