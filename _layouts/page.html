@@ -4,6 +4,7 @@ layout: default
 <div class="ui basic vertical post segment">
     <div class="ui center aligned text post-title container">
         <div class="ui header">{{ page.title }}</div>
+        {% if page.meta %}<div class="text-grey">{{ page.meta }}</div>{% endif %}
     </div>
     <div class="ui text post-content container">
         {% if page.thumbnail %}<p><img src="{{ page.thumbnail | relative_url }}" alt="thumbnail"></p>{% endif %}
