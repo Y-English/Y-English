@@ -1,0 +1,35 @@
+- name: 新闻
+  url: /
+  active_key: news
+
+- name: 图片
+  url: /album/
+  active_key: album
+
+- name: 观点
+  url: /perspective/
+  active_key: perspective
+
+- name: 学术
+  url: /academic/
+  active_key: academic
+
+- name: 感言
+  url: /feedback/
+  active_key: feedback
+
+- name: VB简介
+  url: /vb/
+  active_key: vb
+
+- name: Y-GRE简介
+  url: /y-gre/
+  active_key: y_gre
+
+- name: 云英语团队
+  url: /team/
+  active_key: team
+
+- name: 联系我们
+  url: /contact/
+  active_key: contact

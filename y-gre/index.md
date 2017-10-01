@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Y-GRE平台研修指南
-permalink: y-gre/
-y_gre: true
+active_key: y_gre
 ---
 
 ## 背景知识

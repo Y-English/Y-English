@@ -50,31 +50,31 @@ defaults:
       type: posts
     values:
       layout: post
-      news: true
+      active_key: news
   - scope:
       path: ""
       type: album_posts
     values:
       layout: page
-      album: true
+      active_key: album
   - scope:
       path: ""
       type: perspective_posts
     values:
       layout: page
-      perspective: true
+      active_key: perspective
   - scope:
       path: ""
       type: academic_posts
     values:
       layout: page
-      academic: true
+      active_key: academic
   - scope:
       path: ""
       type: feedback_posts
     values:
       layout: page
-      feedback: true
+      active_key: feedback
 
 plugins:
 - jekyll-feed

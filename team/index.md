@@ -1,8 +1,7 @@
 ---
 layout: page
 title: 云英语团队主要成员
-permalink: team/
-team: true
+active_key: team
 ---
 
 ![Team](/images/team/team.jpg)

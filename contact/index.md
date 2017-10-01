@@ -1,8 +1,7 @@
 ---
 layout: page
 title: 联系我们
-permalink: contact/
-contact: true
+active_key: contact
 ---
 
 ## 研修基地

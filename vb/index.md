@@ -1,8 +1,7 @@
 ---
 layout: page
 title: VB词汇建造师研修指南
-permalink: vb/
-vb: true
+active_key: vb
 ---
 
 > 云英语荣誉出品—词汇建造师（VB）—打破困局，以科学方法构建词汇体系。
