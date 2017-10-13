@@ -47,8 +47,8 @@
     active_key: false
 
 - name: 咨询报名
-  url: /registration/
-  active_key: registration
+  url: /inquiry/
+  active_key: inquiry
   sub_menu_items: false
 
 - name: 云社区
