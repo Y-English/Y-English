@@ -1,13 +1,13 @@
 ---
-layout: default
-title: 观点
-active_key: perspective
+layout: collection
+title: 词源百科
+active_key: word_wiki
 ---
 
 <div class="ui basic vertical post segment">
     <div class="ui text container">
         <div class="ui divided items">
-            {% for post in site.perspective_posts reversed %}
+            {% for post in site.word_wiki_posts reversed %}
                 <div class="item">
                     <a class="image" href="{{ post.url | relative_url }}"><img src="{% if post.thumbnail %}{{ post.thumbnail | relative_url }}{% else %}{{ 'images/image.png' | relative_url }}{% endif %}" alt="thumbnail"></a>
                     <div class="content">

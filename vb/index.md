@@ -1,6 +1,7 @@
 ---
 layout: page
-title: VB词汇建造师研修指南
+title: 词汇建造师
+meta: 研修指南
 active_key: vb
 ---
 

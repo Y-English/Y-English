@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Y-GRE平台研修指南
+title: Y-GRE平台
+meta: 研修指南
 active_key: y_gre
 ---
 

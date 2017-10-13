@@ -1,35 +1,86 @@
-- name: 新闻
+- name: 首页
   url: /
-  active_key: news
+  active_key: home
 
-- name: 图片
-  url: /album/
-  active_key: album
+- name: 解决方案
+  sub_menu_items:
 
-- name: 观点
-  url: /perspective/
-  active_key: perspective
+  - name: 词汇建造师
+    url: /vb/
+    active_key: vb
 
-- name: 学术
-  url: /academic/
-  active_key: academic
+  - name: Y-GRE平台
+    url: /y-gre/
+    active_key: y_gre
 
-- name: 感言
-  url: /feedback/
-  active_key: feedback
+  - name: 定制化服务
+    url: /customize/
+    active_key: customize
 
-- name: VB简介
-  url: /vb/
-  active_key: vb
+  - name: 备考框架
+    url: /study-plan/
+    active_key: study_plan
 
-- name: Y-GRE简介
-  url: /y-gre/
-  active_key: y_gre
+- name: 学术研修
+  sub_menu_items:
+  - name: 研修感言
+    url: /feedback/
+    active_key: feedback
 
-- name: 云英语团队
-  url: /team/
-  active_key: team
+  - name: 学术观点
+    url: /academic/
+    active_key: academic
 
-- name: 联系我们
-  url: /contact/
-  active_key: contact
+  - name: 词源百科
+    url: /word-wiki/
+    active_key: word_wiki
+
+  - name: GRE评论
+    url: /gre-review/
+    active_key: gre_review
+
+- name: 成绩数据
+  sub_menu_items:
+
+  - name: 2016年度数据报告
+    url: https://stats.y-english.org/stats/year/2016
+    active_key: false
+
+- name: 咨询报名
+  url: /registration/
+  active_key: registration
+  sub_menu_items: false
+
+- name: 云社区
+  sub_menu_items:
+
+  - name: 团队
+    url: /team/
+    active_key: team
+
+  - name: 时间轴
+    url: /timeline/
+    active_key: timeline
+
+  - name: 社区动态
+    url: /event/
+    active_key: event
+
+- name: 关于我们
+  sub_menu_items:
+
+  - name: 企业简介
+    url: /about/
+    active_key: about
+
+  - name: 招聘信息
+    url: /career/
+    active_key: career
+
+  - name: 联系我们
+    url: /contact/
+    active_key: contact
+
+- name: 登录
+  url: https://y-english.org/auth/login
+  active_key: false

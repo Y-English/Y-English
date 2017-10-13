@@ -23,26 +23,29 @@ contact: dev[at]y-english[dot]org
 image: /images/logo-blue.png
 logo: /images/logo-dark.png
 
-permalink: /post/:year/:month/:day/:title/
+permalink: /event/post/:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 
 paginate: 5
-paginate_path: /posts/:num/
+paginate_path: /event/:num/
 
 collections:
   album_posts:
     output: true
     permalink: /album/post/:name/
-  perspective_posts:
-    output: true
-    permalink: /perspective/post/:name/
-  academic_posts:
-    output: true
-    permalink: /academic/post/:name/
   feedback_posts:
     output: true
     permalink: /feedback/post/:name/
+  academic_posts:
+    output: true
+    permalink: /academic/post/:name/
+  word_wiki_posts:
+    output: true
+    permalink: /word-wiki/post/:name/
+  gre_review_posts:
+    output: true
+    permalink: /gre-review/post/:name/
 
 defaults:
   - scope:
@@ -59,10 +62,10 @@ defaults:
       active_key: album
   - scope:
       path: ""
-      type: perspective_posts
+      type: feedback_posts
     values:
       layout: page
-      active_key: perspective
+      active_key: feedback
   - scope:
       path: ""
       type: academic_posts
@@ -71,10 +74,16 @@ defaults:
       active_key: academic
   - scope:
       path: ""
-      type: feedback_posts
+      type: word_wiki_posts
     values:
       layout: page
-      active_key: feedback
+      active_key: word_wiki
+  - scope:
+      path: ""
+      type: gre_review_posts
+    values:
+      layout: page
+      active_key: gre_review
 
 plugins:
 - jekyll-feed
