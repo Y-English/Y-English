@@ -14,8 +14,8 @@
     active_key: y_gre
 
   - name: 定制化服务
-    url: /customize/
-    active_key: customize
+    url: /personalize/
+    active_key: personalize
 
   - name: 备考框架
     url: /study-plan/
