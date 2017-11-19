@@ -1,16 +1,16 @@
-<div class="ui large borderless fixed menu">
+<div class="ui large inverted borderless fixed menu">
     <div class="ui container">
         <div class="toc link item"><i class="sidebar icon"></i>{{ site.title }}</div>
         <a class="header item" href="{{ '/' | relative_url }}">
             <div class="ui middle aligned image">
-                <img class="logo-image" src="{{ site.logo_dark }}" alt="Logo">
+                <img class="logo-image" src="{{ site.logo_white | relative_url }}" alt="Logo">
             </div>
             <div class="logo-text">{{ site.alias }}</div>
         </a>
         {% for menu_item in site.data.menu_items %}
             {% if menu_item.sub_menu_items %}
                 <div class="ui dropdown item">
-                    <i class="{{ menu_item.icon }} icon"></i>{{ menu_item.name }}
+                    <i class="{{ menu_item.icon }} icon"></i>{{ menu_item.name }}<i class="dropdown icon"></i>
                     <div class="menu">
                         {% for sub_menu_item in menu_item.sub_menu_items %}<a class="{% if sub_menu_item.active_key == page.active_key %}active {% endif %}item" {% if sub_menu_item.active_key %}href="{{ sub_menu_item.url | relative_url }}"{% else %}href="{{ sub_menu_item.url }}" target="_blank"{% endif %}><i class="{{ sub_menu_item.icon }} icon"></i>{{ sub_menu_item.name }}</a>{% endfor %}
                     </div>
