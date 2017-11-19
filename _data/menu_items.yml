@@ -70,7 +70,7 @@
     url: /team/
     active_key: team
 
-  - name: 时间轴
+  - name: 时间线
     icon: spinner
     url: /timeline/
     active_key: timeline
