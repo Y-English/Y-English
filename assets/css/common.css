@@ -15,6 +15,17 @@
     vertical-align: middle;
 }
 
+.ui.main.segment,
+.ui.footer.segment,
+.ui.error.segment {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.ui.error.header {
+    font-size: 8em;
+}
+
 .ui.basic.vertical.segment {
     padding: 5em 0em;
 }
@@ -61,7 +72,7 @@
 
 @media only screen and (max-width: 767px) {
     .ui.basic.masthead.segment {
-        padding: 0em;
+        /*padding: 0em;*/
     }
     .ui.borderless.menu .item,
     .ui.borderless.menu .menu {
@@ -70,7 +81,6 @@
     .ui.borderless.menu .toc.item {
         display: block;
     }
-
     .ui.error.header {
         font-size: 4em;
     }
