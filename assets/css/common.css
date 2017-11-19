@@ -1,6 +1,6 @@
 /* common.css */
 
-.ui.text.menu .toc.item {
+.ui.borderless.menu .toc.item {
     display: none;
 }
 
@@ -63,17 +63,22 @@
     .ui.basic.masthead.segment {
         padding: 0em;
     }
-    .ui.text.menu .item,
-    .ui.text.menu .menu {
+    .ui.borderless.menu .item,
+    .ui.borderless.menu .menu {
         display: none;
     }
-    .ui.text.menu .toc.item {
+    .ui.borderless.menu .toc.item {
         display: block;
     }
 
     .ui.error.header {
         font-size: 4em;
     }
+}
+
+.text-normal {
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* text colors */
