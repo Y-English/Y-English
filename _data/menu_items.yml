@@ -1,86 +1,100 @@
-- name: 首页
-  url: /
-  active_key: home
-
 - name: 解决方案
+  icon: idea
   sub_menu_items:
 
   - name: 词汇建造师
+    icon: puzzle
     url: /vb/
     active_key: vb
 
   - name: Y-GRE平台
+    icon: cubes
     url: /y-gre/
     active_key: y_gre
 
   - name: 定制化服务
+    icon: magic
     url: /personalize/
     active_key: personalize
 
   - name: 备考框架
+    icon: calendar
     url: /study-plan/
     active_key: study_plan
 
 - name: 学术研修
+  icon: lab
   sub_menu_items:
+
   - name: 研修感言
+    icon: comments outline
     url: /feedback/
     active_key: feedback
 
   - name: 学术观点
+    icon: student
     url: /academic/
     active_key: academic
 
   - name: 词源百科
+    icon: wikipedia
     url: /word-wiki/
     active_key: word_wiki
 
   - name: GRE评论
+    icon: talk outline
     url: /gre-review/
     active_key: gre_review
 
 - name: 成绩数据
+  icon: bar chart
   sub_menu_items:
 
   - name: 2016年度数据报告
+    icon: text file outline
     url: https://stats.y-english.org/stats/year/2016
     active_key: false
 
 - name: 咨询报名
+  icon: info
   url: /inquiry/
   active_key: inquiry
   sub_menu_items: false
 
 - name: 云社区
+  icon: cloud
   sub_menu_items:
 
   - name: 团队
+    icon: users
     url: /team/
     active_key: team
 
-  - name: 时间轴
+  - name: 时间线
+    icon: spinner
     url: /timeline/
     active_key: timeline
 
   - name: 社区动态
+    icon: newspaper
     url: /event/
     active_key: event
 
 - name: 关于我们
+  icon: copyright
   sub_menu_items:
 
   - name: 企业简介
+    icon: industry
     url: /about/
     active_key: about
 
   - name: 招聘信息
+    icon: add user
     url: /career/
     active_key: career
 
   - name: 联系我们
+    icon: send
     url: /contact/
     active_key: contact
-
-- name: 登录
-  url: https://y-english.org/auth/login
-  active_key: false

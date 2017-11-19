@@ -22,6 +22,8 @@ contact: dev[at]y-english[dot]org
 
 image: /images/logo-blue.png
 logo: /images/logo-dark.png
+logo_dark: /images/logo-dark.svg
+logo_white: /images/logo-white.svg
 
 permalink: /event/post/:year/:month/:day/:title/
 

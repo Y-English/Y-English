@@ -1,6 +1,6 @@
 /* common.css */
 
-.ui.text.menu .toc.item {
+.ui.borderless.menu .toc.item {
     display: none;
 }
 
@@ -15,44 +15,52 @@
     vertical-align: middle;
 }
 
-.ui.basic.vertical.segment {
-    padding: 5em 0em;
+.ui.vertical.segment {
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
-.ui.basic.vertical.collection-title.segment,
-.ui.basic.vertical.post.segment,
-.ui.basic.vertical.pagination.segment {
-    padding: 2em 0em;
+.ui.masthead.vertical.segment,
+.ui.main.vertical.segment {
+    margin-top: 5em;
 }
 
-.ui.post-excerpt.text.container {
-    padding: 1em 0em;
-    font-size: 1rem;
-}
-.ui.post-content.text.container {
-    padding: 2em 0em;
+.ui.error.header {
+    font-size: 8em;
 }
 
-.ui.post-content.text.container p {
+.ui.collection.container,
+.ui.pagination.container {
+    max-width: 700px!important;
+}
+.ui.pagination.container {
+    margin-top: 2em;
+}
+
+.ui.page-title.text.container,
+.ui.page-title.text.container {
+    margin-bottom: 2em;
+}
+
+.ui.page-content.text.container {
+
+}
+.ui.page-content.text.container p {
     text-indent: 2em;
 }
-.ui.post-content.text.container blockquote {
+.ui.page-content.text.container blockquote {
     color: #767676;
     padding: 0 1em;
     border-left: 0.25em solid #DCDDDE;
 }
-.ui.post-content.text.container blockquote p {
+.ui.page-content.text.container blockquote p {
     text-indent: 0;
 }
-.ui.post-content.text.container p img {
+.ui.page-content.text.container p img {
     display: block;
     max-width: 100%;
     margin: auto;
     height: auto;
-}
-
-.ui.post-meta.text.container div{
-    font-size: 1rem;
 }
 
 .ui.error.header {
@@ -60,20 +68,21 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .ui.basic.masthead.segment {
-        padding: 0em;
-    }
-    .ui.text.menu .item,
-    .ui.text.menu .menu {
+    .ui.borderless.menu .item,
+    .ui.borderless.menu .menu {
         display: none;
     }
-    .ui.text.menu .toc.item {
+    .ui.borderless.menu .toc.item {
         display: block;
     }
-
     .ui.error.header {
         font-size: 4em;
     }
+}
+
+.text-normal {
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* text colors */
