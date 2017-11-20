@@ -25,6 +25,22 @@
     margin-top: 5em;
 }
 
+.ui.stats.vertical.segment,
+.ui.quote.vertical.segment {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ui.stats.vertical.segment .column,
+.ui.quote.vertical.segment .column {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.ui.stats.vertical.segment .ui.statistic .label {
+    font-size: 1.2em;
+}
+
 .ui.error.header {
     font-size: 8em;
 }
@@ -74,6 +90,15 @@
     }
     .ui.borderless.menu .toc.item {
         display: block;
+    }
+    .ui.vertical.segment {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+
+    .ui.masthead.vertical.segment,
+    .ui.main.vertical.segment {
+        margin-top: 3em;
     }
     .ui.error.header {
         font-size: 4em;
