@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="{{ site.data.tetris.view_box }}">
     {% for piece in site.data.tetris.pieces %}
-        <a href="{{ piece.url | relative_url }}">
+        <a xlink:href="{{ piece.url | relative_url }}">
             <{{ piece.element }} id="tetris-piece-{{ piece.id }}" class="tetris-piece" points="{{ piece.points }}"/>
         </a>
     {% endfor %}
