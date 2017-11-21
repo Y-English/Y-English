@@ -1,0 +1,27 @@
+---
+layout: basic_page
+title: 云英语团队主要成员
+active_key: team
+---
+
+{% for category in site.data.members.categories %}
+    <h2 class="ui dividing header"><span class="text-normal text-teal">{{ category.name }}</span></h2>
+    {% if category.description %}<p>{{ category.description }}</p>{% endif %}
+    {% if category.members %}
+        <div class="ui very relaxed items">
+            {% for member in category.members %}
+                <div class="item">
+                    <div class="content">
+                        <div class="header">{{ member.name }}{% if member.title %} <span class="text-normal text-grey">{{ member.title }}</span>{% endif %}</div>
+                        {% if member.positions %}<div class="meta">{% for item in member.positions %}{% unless forloop.first %} &middot; {% endunless %}{{ item }}{% endfor %}</div>{% endif %}
+                        <div class="description">
+                            <div class="ui bulleted list">
+                                {% for item in member.details %}<div class="item">{{ item }}</div>{% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endfor %}

@@ -53,26 +53,26 @@
     margin-top: 2em;
 }
 
-.ui.page-title.text.container,
-.ui.page-title.text.container {
+.ui.page-title.container,
+.ui.page-title.container {
     margin-bottom: 2em;
 }
 
-.ui.page-content.text.container {
+.ui.page-content.container {
 
 }
-.ui.page-content.text.container p {
+.ui.page-content.container p {
     text-indent: 2em;
 }
-.ui.page-content.text.container blockquote {
+.ui.page-content.container blockquote {
     color: #767676;
     padding: 0 1em;
     border-left: 0.25em solid #DCDDDE;
 }
-.ui.page-content.text.container blockquote p {
+.ui.page-content.container blockquote p {
     text-indent: 0;
 }
-.ui.page-content.text.container p img {
+.ui.page-content.container p img {
     display: block;
     max-width: 100%;
     margin: auto;
