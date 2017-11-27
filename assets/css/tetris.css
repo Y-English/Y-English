@@ -1,14 +1,17 @@
 /* tetris.css */
 
-.tetris-piece {
+svg .tetris-piece polygon {
     fill: #E0E1E2;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
 }
 
-.tetris-piece:hover {
+svg .tetris-piece:hover polygon {
     fill: #CACBCD;
+}
+
+svg .tetris-piece .text {
+    fill: rgba(0,0,0,.6);
+}
+
+svg .tetris-piece:hover .text {
+    fill: rgba(0,0,0,.8);
 }
