@@ -1,17 +1,17 @@
 /* tetris.css */
 
-svg .tetris-piece polygon {
+svg g.tetris-piece polygon {
     fill: #E0E1E2;
 }
 
-svg .tetris-piece:hover polygon {
-    fill: #CACBCD;
+svg g.tetris-piece:hover polygon {
+    fill: #DB1919;
 }
 
-svg .tetris-piece .text {
+svg g.tetris-piece g.text {
     fill: rgba(0,0,0,.6);
 }
 
-svg .tetris-piece:hover .text {
-    fill: rgba(0,0,0,.8);
+svg g.tetris-piece:hover g.text {
+    fill: #FFF;
 }
