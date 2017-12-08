@@ -83,6 +83,11 @@
     font-size: 8em;
 }
 
+.ui.cards .qrcode.card .image {
+    padding: 1em;
+    background: none;
+}
+
 @media only screen and (max-width: 767px) {
     .ui.borderless.menu .item,
     .ui.borderless.menu .menu {
