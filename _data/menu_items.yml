@@ -81,7 +81,7 @@
     active_key: event
 
 - name: 关于我们
-  icon: copyright outline
+  icon: copyright
   sub_menu_items:
 
   - name: 企业简介
