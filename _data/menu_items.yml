@@ -1,5 +1,5 @@
 - name: 解决方案
-  icon: idea
+  icon: lightbulb outline
   sub_menu_items:
 
   - name: 词汇建造师
@@ -18,12 +18,12 @@
     active_key: personalize
 
   - name: 备考框架
-    icon: calendar
+    icon: calendar alternate outline
     url: /study-plan/
     active_key: study_plan
 
 - name: 学术研修
-  icon: lab
+  icon: flask
   sub_menu_items:
 
   - name: 研修感言
@@ -32,7 +32,7 @@
     active_key: feedback
 
   - name: 学术观点
-    icon: student
+    icon: graduation cap
     url: /academic/
     active_key: academic
 
@@ -42,16 +42,16 @@
     active_key: word_wiki
 
   - name: GRE评论
-    icon: talk outline
+    icon: comment alternate outline
     url: /gre-review/
     active_key: gre_review
 
 - name: 成绩数据
-  icon: bar chart
+  icon: chart bar
   sub_menu_items:
 
   - name: 2016年度数据报告
-    icon: text file outline
+    icon: file alternate
     url: https://stats.y-english.org/stats/year/2016
     active_key: false
 
@@ -76,7 +76,7 @@
     active_key: timeline
 
   - name: 社区动态
-    icon: newspaper
+    icon: newspaper outline
     url: /event/
     active_key: event
 
@@ -90,11 +90,11 @@
     active_key: about
 
   - name: 招聘信息
-    icon: add user
+    icon: user plus
     url: /career/
     active_key: career
 
   - name: 联系我们
-    icon: send
+    icon: paper plane
     url: /contact/
     active_key: contact

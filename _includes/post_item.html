@@ -4,6 +4,6 @@
         <a class="header" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <div class="meta">{% if page.active_key == 'event' %}{{ post.date | date_to_long_string }}{% else %}{{ post.meta }}{% endif %}</div>
         <div class="description">{{ post.excerpt }}</div>
-        <div class="extra"><a href="{{ post.url | relative_url }}"><i class="right arrow icon"></i>继续阅读</a></div>
+        <div class="extra"><a href="{{ post.url | relative_url }}"><i class="arrow right icon"></i>继续阅读</a></div>
     </div>
 </div>
