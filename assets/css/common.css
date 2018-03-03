@@ -93,7 +93,8 @@
     .ui.borderless.menu .menu {
         display: none;
     }
-    .ui.borderless.menu .toc.item {
+    .ui.borderless.menu .toc.item,
+    .ui.borderless.menu .advertisement.item {
         display: block;
     }
     .ui.vertical.segment {
