@@ -37,7 +37,7 @@
     active_key: academic
 
   - name: 词源百科
-    icon: wikipedia
+    icon: wikipedia w
     url: /word-wiki/
     active_key: word_wiki
 
