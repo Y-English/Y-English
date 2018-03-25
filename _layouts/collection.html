@@ -11,7 +11,7 @@ layout: default
             {{ content }}
         </div>
     </div>
-    {% if page.active_key == 'event' and paginator.total_pages > 1 %}
+    {%- if page.active_key == 'event' and paginator.total_pages > 1 -%}
         {% include pagination.html %}
-    {% endif %}
+    {%- endif -%}
 </div>

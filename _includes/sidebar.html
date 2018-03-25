@@ -6,16 +6,16 @@
         <div class="logo-text">{{ site.alias }}</div>
     </a>
     <a class="item" href="https://y-english.org/auth/login" target="_blank"><i class="user circle icon"></i>登录</a>
-    {% for menu_item in site.data.menu_items %}
-        {% if menu_item.sub_menu_items %}
+    {%- for menu_item in site.data.menu_items -%}
+        {%- if menu_item.sub_menu_items -%}
             <div class="item">
                 <div class="header">{{ menu_item.name }}</div>
                 <div class="menu">
                     {% for sub_menu_item in menu_item.sub_menu_items %}<a class="{% if sub_menu_item.active_key == page.active_key %}active {% endif %}item" {% if sub_menu_item.active_key %}href="{{ sub_menu_item.url | relative_url }}"{% else %}href="{{ sub_menu_item.url }}" target="_blank"{% endif %}><i class="{{ sub_menu_item.icon }} icon"></i>{{ sub_menu_item.name }}</a>{% endfor %}
                 </div>
             </div>
-        {% else %}
+        {%- else -%}
             <a class="{% if menu_item.active_key == page.active_key %}active {% endif %}item" {% if menu_item.active_key %}href="{{ menu_item.url | relative_url }}"{% else %}href="{{ menu_item.url }}" target="_blank"{% endif %}><i class="{{ menu_item.icon }} icon"></i>{{ menu_item.name }}</a>
-        {% endif %}
-    {% endfor %}
+        {%- endif -%}
+    {%- endfor -%}
 </div>

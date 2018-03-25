@@ -4,6 +4,6 @@ title: GRE评论
 active_key: gre_review
 ---
 
-{% for post in site.gre_review_posts reversed %}
+{%- for post in site.gre_review_posts reversed -%}
     {% include post_item.html %}
-{% endfor %}
+{%- endfor -%}

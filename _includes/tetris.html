@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="{{ site.data.tetris.view_box }}">
-    {% for piece in site.data.tetris.pieces %}
-        {% if piece.link %}
+    {%- for piece in site.data.tetris.pieces -%}
+        {%- if piece.link -%}
             <a {% if piece.link.external %}xlink:href="{{ piece.link.url }}" target="_blank"{% else %}xlink:href="{{ piece.link.url | relative_url }}"{% endif %}>
                 <g id="tetris-piece-{{ piece.id }}" class="tetris-piece">
                     <polygon points="{{ piece.shape }}"/>
                     <g class="text">{% for path in piece.text %}<path d="{{ path }}"/>{% endfor %}</g>
                 </g>
             </a>
-        {% else %}
+        {%- else -%}
             <g id="tetris-piece-{{ piece.id }}" class="tetris-piece">
                 <polygon points="{{ piece.shape }}"/>
                 <g class="text">{% for path in piece.text %}<path d="{{ path }}"/>{% endfor %}</g>
             </g>
-        {% endif %}
-    {% endfor %}
+        {%- endif -%}
+    {%- endfor -%}
 </svg>

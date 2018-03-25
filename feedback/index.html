@@ -4,6 +4,6 @@ title: 研修感言
 active_key: feedback
 ---
 
-{% for post in site.feedback_posts reversed %}
+{%- for post in site.feedback_posts reversed -%}
     {% include post_item.html %}
-{% endfor %}
+{%- endfor -%}
