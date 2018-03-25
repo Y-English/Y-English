@@ -4,6 +4,6 @@ title: 图片
 active_key: album
 ---
 
-{% for post in site.album_posts reversed %}
+{%- for post in site.album_posts reversed -%}
     {% include post_item.html %}
-{% endfor %}
+{%- endfor -%}

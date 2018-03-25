@@ -4,6 +4,6 @@ title: 词源百科
 active_key: word_wiki
 ---
 
-{% for post in site.word_wiki_posts reversed %}
+{%- for post in site.word_wiki_posts reversed -%}
     {% include post_item.html %}
-{% endfor %}
+{%- endfor -%}

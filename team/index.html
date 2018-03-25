@@ -4,12 +4,12 @@ title: 云英语团队主要成员
 active_key: team
 ---
 
-{% for category in site.data.members.categories %}
+{%- for category in site.data.members.categories -%}
     <h2 class="ui dividing header"><span class="text-normal text-teal">{{ category.name }}</span></h2>
     {% if category.description %}<p>{{ category.description }}</p>{% endif %}
-    {% if category.members %}
+    {%- if category.members -%}
         <div class="ui very relaxed items">
-            {% for member in category.members %}
+            {%- for member in category.members -%}
                 <div class="item">
                     <div class="content">
                         <div class="header">{{ member.name }}{% if member.title %} <span class="text-normal text-grey">{{ member.title }}</span>{% endif %}</div>
@@ -21,7 +21,7 @@ active_key: team
                         </div>
                     </div>
                 </div>
-            {% endfor %}
+            {%- endfor -%}
         </div>
-    {% endif %}
-{% endfor %}
+    {%- endif -%}
+{%- endfor -%}

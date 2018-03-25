@@ -4,6 +4,6 @@ title: 社区动态
 active_key: event
 ---
 
-{% for post in paginator.posts %}
+{%- for post in paginator.posts -%}
     {% include post_item.html %}
-{% endfor %}
+{%- endfor -%}
