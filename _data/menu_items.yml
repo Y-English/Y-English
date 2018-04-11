@@ -50,6 +50,11 @@
   icon: chart bar
   sub_menu_items:
 
+  - name: 2017年度数据报告
+    icon: file alternate
+    url: https://stats.y-english.org/stats/year/2017
+    active_key: false
+
   - name: 2016年度数据报告
     icon: file alternate
     url: https://stats.y-english.org/stats/year/2016
