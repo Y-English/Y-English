@@ -2,7 +2,7 @@ analytics:
   google:
     id: UA-84829010-5
 
-repository: https://github.com/Y-English/Y-English-Live
+repository: https://github.com/Y-English/Y-English
 
 timezone: Asia/Shanghai
 lang: zh_CN
@@ -11,7 +11,7 @@ title: 云英语 · Y-English
 alias: 云英语
 description: 不背单词的GRE工程化解决方案
 keywords: 云英语, Y-English, Vocanulary Builder, VB, Y-GRE, GRE, Education, Flipped Classroom
-url: https://live.y-english.org
+url: https://y-english.org
 
 author: iROCKBUNNY
 author_url: http://irockbunny.com

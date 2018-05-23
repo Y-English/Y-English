@@ -52,12 +52,12 @@
 
   - name: 2017年度数据报告
     icon: file alternate
-    url: https://stats.y-english.org/stats/year/2017
+    url: https://stats.y-english.cn/stats/year/2017
     active_key: false
 
   - name: 2016年度数据报告
     icon: file alternate
-    url: https://stats.y-english.org/stats/year/2016
+    url: https://stats.y-english.cn/stats/year/2016
     active_key: false
 
 - name: 咨询报名
