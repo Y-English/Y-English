@@ -1,0 +1,205 @@
+vb:
+  categories:
+  - header: 基础材料构成
+    sections:
+    - header: 标准研修
+      description: 付费部分
+      sub_sections:
+      - header: 研修标准视频
+        description: 总计 105.8 小时
+        items:
+        - name: 总论 Day 1
+          description: 4.5 小时
+        - name: 总论 Day 2
+          description: 4.5 小时
+        - name: 总论 Day 3
+          description: 4.6 小时
+        - name: 总论 Day 4
+          description: 4.6 小时
+        - name: L1
+          description: 9.6 小时
+        - name: L2
+          description: 7.8 小时
+        - name: L3
+          description: 8.5 小时
+        - name: L4
+          description: 9.6 小时
+        - name: L5
+          description: 9.6 小时
+        - name: L6
+          description: 9.1 小时
+        - name: L7
+          description: 9.0 小时
+        - name: L8
+          description: 11.2 小时
+        - name: L9
+          description: 14.8 小时
+      - header: 研修专用脚本（上）
+        items:
+        - name: L1
+        - name: L2
+        - name: L3
+        - name: L4
+        - name: L5
+        - name: L6
+        - name: L7
+        - name: L8
+        - name: L9
+        - name: L10
+      - header: 普通作业
+        items:
+        items:
+        - name: L1
+        - name: L2
+        - name: L3
+        - name: L4
+        - name: L5
+        - name: L6
+        - name: L7
+        - name: L8
+      - header: 学术阅读作业
+        items:
+        items:
+        - name: R1-2
+        - name: R3-4
+        - name: R5-6
+        - name: R7-8
+        - name: R9-10
+      - header: 阶段测验
+        items:
+        - name: Test 1-5
+        - name: Test 6-9
+      - header: 「VB查词」技术蓝图
+        items:
+        - name: Y-ENGLISH VB电子词典查词流程指南
+      - header: 辅助材料与说明文档
+        items:
+        - name: 研修指南
+        - name: 总论拓展
+        - name: 研修全流程与各节点任务
+        - name: 单词卡片和各种技术图
+        - name: 补充答疑汇总
+    - header: 进阶研修
+      description: 非公开部分
+      sub_sections:
+      - header: 研修标准视频
+        items:
+        - name: L11
+        - name: L12
+        - name: L13
+        - name: L14
+      - header: 研修专用脚本（中、下）
+        items:
+        - name: L11
+        - name: L12
+        - name: L13
+        - name: L14
+        - name: L15
+  - header: 内容大纲
+    sections:
+    - header: 总论
+      sub_sections:
+      - header: 总论 Day 1
+        description: 印欧语基础 语音学与音变基础知识
+        lessons:
+        - name: 印欧语基础
+          remarks:
+          - 语言演变分化的不精确共时模拟
+          - PIE与印欧语系基础知识（历史比较语言方法）
+          - VB三支演变视角下的英语词汇历史源流
+          - 印欧语系语音变化初探与试验
+        - name: 语音学基础知识
+          remarks:
+          - 发音机制与语音类型
+          - 辅音精析（塞音、擦音、塞擦音、闪音与颤音、近音、边音、鼻音）、轻音vs浊音（VOT理论）、元音（略）
+          - 英语各方言间发音差别
+        - name: 音变基础知识
+          remarks:
+          - 辅音变化（清浊变化、阻碍程度、发音部位移动）
+          - 元音变化（自变ablaut vs 被变umlaut、PIE元音分级、拉丁法语元音变化、英语元音变化GVS）
+          - 古代语言语音构拟
+      - header: 总论 Day 2
+        description: 历史比较语言学 语言演变基本规律 VB印欧三支演变（日耳曼 拉丁 希腊）
+        lessons:
+        - name: 印欧语系内历史比较语言实例与音变的整体变化
+          remarks:
+          - 语音变化与历史比较语言实例练习
+          - 整体变化（脱失、同化及其他、后缀增音、重复形式）
+        - name: PIE印欧三支演变部分
+          remarks:
+          - 从PIE到Germanic日耳曼（VB版格林法则）
+          - 从PIE到Latin拉丁（弱化脱失、h音化、f音化）
+          - 从PIE到Greek希腊（弱化脱失、清音化、齿音化/唇音化）
+          - 思考题与PIE印欧复杂变化练习
+        - name: 工程实现前瞻
+          remarks:
+          - VB系统对应关联构建语言认知
+          - 词源真意与一词多义的VB整摄解决
+      - header: 总论 Day 3
+        description: 印欧框架下的英语前缀总论（上） 从*per-到*apo-
+        lessons:
+        - name: 前缀总述
+          remarks:
+          - 前缀对语义方向性指示的重要根本意义
+          - 有关前缀方向语义未解决之大量问题（epi-）
+          - VB对英语前缀语义的再整摄及悖论解决方案
+        - name: 印欧语言*per-链条语义图谱
+          remarks:
+          - per-（per-的语义整摄）
+          - pro-、para-/peri-、for-（向前vs周围vs远离）
+          - pro-/protero-/proto-、pre-/prior/prim-
+          - re-/retro-
+        - name: 印欧语言的*apo- vs *ant-前缀语义图谱
+          remarks:
+          - after/post-、apo-/ab-/off
+          - end、anti-、ante-（前面如何成为后端以及对抗）
+      - header: 总论 Day 4
+        description: 印欧框架下的英语前缀总论（下） 从*uper-到*tere-
+        lessons:
+        - name: 印欧语言的*uper- vs *upo-前缀语义图谱
+          remarks:
+          - hyper- vs hypo-
+          - super-/sur-/superior/summus vs sub-/subter-
+          - over vs up（有关up的悖论）
+        - name: 印欧语言的*en- vs *eks-前缀语义图谱
+          remarks:
+          - in-/en-、intra-/interior/intim
+          - ex-/ec-/e-、extra-/exterior/extrem-
+        - name: 印欧语言的*epi- & *an-前缀语义图谱
+          remarks:
+          - epi-/ob-（epi-的真实语义）
+          - ana-/on（ana-的真实语义）
+        - name: 印欧语言的syn-/con- vs dis-/de-前缀语义图谱
+          remarks:
+          - syn-/con-/contra-
+          - dis-
+          - de-
+        - name: 印欧语言的*tere-前缀语义图谱
+          remarks:
+          - trans-/tra-/through
+    - header: 主体
+      description: 分论
+      sub_sections:
+      - header: 词汇建造师（上）
+        description: 基于词源和VB方法论、结合VB查词流程和辅助材料深入语境和背景构建学术词汇体系
+        lessons:
+        - name: Lesson 1
+          description: 印欧基础与数字
+        - name: Lesson 2
+          description: 一直向前走
+        - name: Lesson 3
+          description: 人类起源与生命、繁育
+        - name: Lesson 4
+          description: 战争、肉体消亡以及破坏与法律
+        - name: Lesson 5
+          description: 身体部位与功能（上）
+        - name: Lesson 6
+          description: 身体部位与功能（下）
+        - name: Lesson 7
+          description: 动物与植物
+        - name: Lesson 8
+          description: 行走、观察与做工
+        - name: Lesson 9
+          description: 指示、说话与发声
+        - name: Lesson 10
+          description: 补充与扩展
