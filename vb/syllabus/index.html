@@ -1,6 +1,48 @@
 ---
-layout: page
+layout: basic_page
 title: 词汇建造师
-meta: 设计结构与内容大纲
+meta: 材料构成与内容大纲
 active_key: vb
 ---
+
+{%- for category in site.data.syllabus.vb.categories -%}
+    <h2 class="ui dividing header"><span class="text-normal text-teal">{{ category.header }}</span></h2>
+    {%- for section in category.sections -%}
+        <h2 class="ui header"><span class="text-normal text-grey">{{ section.header }}</span>{% if section.description %}<div class="ui horizontal label">{{ section.description }}</div>{% endif %}</h2>
+        <div class="ui very relaxed items">
+            {%- for sub_section in section.sub_sections -%}
+                <div class="item">
+                    <div class="content">
+                        <div class="header">{{ sub_section.header }}</div>
+                        {% if sub_section.description %}<div class="meta">{{ sub_section.description }}</div>{% endif %}
+                        <div class="description">
+                            {%- if sub_section.items -%}
+                            <div class="ui bulleted list">
+                                {%- for item in sub_section.items -%}
+                                    <div class="item">{{ item.name }}{% if item.description %}：<span class="text-grey">{{ item.description }}</span>{% endif %}</div>
+                                {%- endfor -%}
+                            </div>
+                            {%- endif -%}
+                            {%- if sub_section.lessons -%}
+                            <div class="ui list">
+                                {%- for lesson in sub_section.lessons -%}
+                                    <div class="item">
+                                        {{ lesson.name }}{% if lesson.description %}：<span class="text-grey">{{ lesson.description }}</span>{% endif %}{% if lesson.remarks %}：{% endif %}
+                                        {%- if lesson.remarks -%}
+                                            <div class="ui bulleted list">
+                                                {%- for remark in lesson.remarks -%}
+                                                    <div class="item"><span class="text-grey">{{ remark }}</span></div>
+                                                {%- endfor -%}
+                                            </div>
+                                        {%- endif -%}
+                                    </div>
+                                {%- endfor -%}
+                            </div>
+                            {%- endif -%}
+                        </div>
+                    </div>
+                </div>
+            {%- endfor -%}
+        </div>
+    {%- endfor -%}
+{%- endfor -%}
