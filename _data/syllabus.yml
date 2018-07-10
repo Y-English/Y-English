@@ -10,196 +10,271 @@ vb:
         items:
         - name: 总论 Day 1
           description: 4.5 小时
+          icon: file video
         - name: 总论 Day 2
           description: 4.5 小时
+          icon: file video
         - name: 总论 Day 3
           description: 4.6 小时
+          icon: file video
         - name: 总论 Day 4
           description: 4.6 小时
+          icon: file video
         - name: L1
           description: 9.6 小时
+          icon: file video
         - name: L2
           description: 7.8 小时
+          icon: file video
         - name: L3
           description: 8.5 小时
+          icon: file video
         - name: L4
           description: 9.6 小时
+          icon: file video
         - name: L5
           description: 9.6 小时
+          icon: file video
         - name: L6
           description: 9.1 小时
+          icon: file video
         - name: L7
           description: 9.0 小时
+          icon: file video
         - name: L8
           description: 11.2 小时
+          icon: file video
         - name: L9
           description: 14.8 小时
+          icon: file video
       - header: 研修专用脚本（上）
         items:
         - name: L1
+          icon: book
         - name: L2
+          icon: book
         - name: L3
+          icon: book
         - name: L4
+          icon: book
         - name: L5
+          icon: book
         - name: L6
+          icon: book
         - name: L7
+          icon: book
         - name: L8
+          icon: book
         - name: L9
+          icon: book
         - name: L10
+          icon: book
       - header: 普通作业
         items:
-        items:
         - name: L1
+          icon: file alternate
         - name: L2
+          icon: file alternate
         - name: L3
+          icon: file alternate
         - name: L4
+          icon: file alternate
         - name: L5
+          icon: file alternate
         - name: L6
+          icon: file alternate
         - name: L7
+          icon: file alternate
         - name: L8
+          icon: file alternate
       - header: 学术阅读作业
         items:
-        items:
         - name: R1-2
+          icon: file alternate
         - name: R3-4
+          icon: file alternate
         - name: R5-6
+          icon: file alternate
         - name: R7-8
+          icon: file alternate
         - name: R9-10
+          icon: file alternate
       - header: 阶段测验
         items:
         - name: Test 1-5
+          icon: pencil alternate
         - name: Test 6-9
+          icon: pencil alternate
       - header: 「VB查词」技术蓝图
         items:
-        - name: Y-ENGLISH VB电子词典查词流程指南
+        - name: VB电子词典查词流程指南
+          icon: book
       - header: 辅助材料与说明文档
         items:
         - name: 研修指南
-        - name: 总论拓展
-        - name: 研修全流程与各节点任务
-        - name: 单词卡片和各种技术图
-        - name: 补充答疑汇总
+          icon: book
+        - name: 总论拓展书单
+          icon: book
+        - name: 研修全流程与各节点任务指南
+          icon: book
+        - name: 单词卡片与技术图
+          icon: images
+        - name: 补充答疑材料
+          icon: file alternate
     - header: 进阶研修
       description: 非公开部分
       sub_sections:
       - header: 研修标准视频
         items:
         - name: L11
+          icon: file video
         - name: L12
+          icon: file video
         - name: L13
+          icon: file video
         - name: L14
+          icon: file video
       - header: 研修专用脚本（中、下）
         items:
         - name: L11
+          icon: book
         - name: L12
+          icon: book
         - name: L13
+          icon: book
         - name: L14
+          icon: book
         - name: L15
+          icon: book
   - header: 内容大纲
     sections:
     - header: 总论
       sub_sections:
       - header: 总论 Day 1
         description: 印欧语基础 语音学与音变基础知识
-        lessons:
+        items:
         - name: 印欧语基础
-          remarks:
+          icon: olive tag
+          details:
           - 语言演变分化的不精确共时模拟
           - PIE与印欧语系基础知识（历史比较语言方法）
           - VB三支演变视角下的英语词汇历史源流
           - 印欧语系语音变化初探与试验
         - name: 语音学基础知识
-          remarks:
+          icon: olive tag
+          details:
           - 发音机制与语音类型
           - 辅音精析（塞音、擦音、塞擦音、闪音与颤音、近音、边音、鼻音）、轻音vs浊音（VOT理论）、元音（略）
           - 英语各方言间发音差别
         - name: 音变基础知识
-          remarks:
+          icon: olive tag
+          details:
           - 辅音变化（清浊变化、阻碍程度、发音部位移动）
           - 元音变化（自变ablaut vs 被变umlaut、PIE元音分级、拉丁法语元音变化、英语元音变化GVS）
           - 古代语言语音构拟
       - header: 总论 Day 2
         description: 历史比较语言学 语言演变基本规律 VB印欧三支演变（日耳曼 拉丁 希腊）
-        lessons:
+        items:
         - name: 印欧语系内历史比较语言实例与音变的整体变化
-          remarks:
+          icon: olive tag
+          details:
           - 语音变化与历史比较语言实例练习
           - 整体变化（脱失、同化及其他、后缀增音、重复形式）
         - name: PIE印欧三支演变部分
-          remarks:
+          icon: olive tag
+          details:
           - 从PIE到Germanic日耳曼（VB版格林法则）
           - 从PIE到Latin拉丁（弱化脱失、h音化、f音化）
           - 从PIE到Greek希腊（弱化脱失、清音化、齿音化/唇音化）
           - 思考题与PIE印欧复杂变化练习
         - name: 工程实现前瞻
-          remarks:
+          icon: olive tag
+          details:
           - VB系统对应关联构建语言认知
           - 词源真意与一词多义的VB整摄解决
       - header: 总论 Day 3
         description: 印欧框架下的英语前缀总论（上） 从*per-到*apo-
-        lessons:
+        items:
         - name: 前缀总述
-          remarks:
+          icon: olive tag
+          details:
           - 前缀对语义方向性指示的重要根本意义
           - 有关前缀方向语义未解决之大量问题（epi-）
           - VB对英语前缀语义的再整摄及悖论解决方案
         - name: 印欧语言*per-链条语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - per-（per-的语义整摄）
           - pro-、para-/peri-、for-（向前vs周围vs远离）
           - pro-/protero-/proto-、pre-/prior/prim-
           - re-/retro-
         - name: 印欧语言的*apo- vs *ant-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - after/post-、apo-/ab-/off
           - end、anti-、ante-（前面如何成为后端以及对抗）
       - header: 总论 Day 4
         description: 印欧框架下的英语前缀总论（下） 从*uper-到*tere-
-        lessons:
+        items:
         - name: 印欧语言的*uper- vs *upo-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - hyper- vs hypo-
           - super-/sur-/superior/summus vs sub-/subter-
           - over vs up（有关up的悖论）
         - name: 印欧语言的*en- vs *eks-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - in-/en-、intra-/interior/intim
           - ex-/ec-/e-、extra-/exterior/extrem-
         - name: 印欧语言的*epi- & *an-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - epi-/ob-（epi-的真实语义）
           - ana-/on（ana-的真实语义）
         - name: 印欧语言的syn-/con- vs dis-/de-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - syn-/con-/contra-
           - dis-
           - de-
         - name: 印欧语言的*tere-前缀语义图谱
-          remarks:
+          icon: olive tag
+          details:
           - trans-/tra-/through
     - header: 主体
       description: 分论
       sub_sections:
       - header: 词汇建造师（上）
         description: 基于词源和VB方法论、结合VB查词流程和辅助材料深入语境和背景构建学术词汇体系
-        lessons:
+        items:
         - name: Lesson 1
           description: 印欧基础与数字
+          icon: olive tag
         - name: Lesson 2
           description: 一直向前走
+          icon: olive tag
         - name: Lesson 3
           description: 人类起源与生命、繁育
+          icon: olive tag
         - name: Lesson 4
           description: 战争、肉体消亡以及破坏与法律
+          icon: olive tag
         - name: Lesson 5
           description: 身体部位与功能（上）
+          icon: olive tag
         - name: Lesson 6
           description: 身体部位与功能（下）
+          icon: olive tag
         - name: Lesson 7
           description: 动物与植物
+          icon: olive tag
         - name: Lesson 8
           description: 行走、观察与做工
+          icon: olive tag
         - name: Lesson 9
           description: 指示、说话与发声
+          icon: olive tag
         - name: Lesson 10
           description: 补充与扩展
+          icon: olive tag
