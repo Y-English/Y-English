@@ -17,6 +17,7 @@ active_key: team
                         <div class="description">
                             <div class="ui bulleted list">
                                 {% for item in member.details %}<div class="item">{{ item }}</div>{% endfor %}
+                                {% for link in member.links %}<div class="item"><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></div>{% endfor %}
                             </div>
                         </div>
                     </div>
