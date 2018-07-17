@@ -1,151 +1,5 @@
 vb:
   categories:
-  - header: 基础材料构成
-    sections:
-    - header: 标准研修
-      description: 付费部分
-      sub_sections:
-      - header: 研修标准视频
-        description: 总计 105.8 小时
-        items:
-        - name: 总论 Day 1
-          description: 4.5 小时
-          icon: file video
-        - name: 总论 Day 2
-          description: 4.5 小时
-          icon: file video
-        - name: 总论 Day 3
-          description: 4.6 小时
-          icon: file video
-        - name: 总论 Day 4
-          description: 4.6 小时
-          icon: file video
-        - name: L1
-          description: 9.6 小时
-          icon: file video
-        - name: L2
-          description: 7.8 小时
-          icon: file video
-        - name: L3
-          description: 8.5 小时
-          icon: file video
-        - name: L4
-          description: 9.6 小时
-          icon: file video
-        - name: L5
-          description: 9.6 小时
-          icon: file video
-        - name: L6
-          description: 9.1 小时
-          icon: file video
-        - name: L7
-          description: 9.0 小时
-          icon: file video
-        - name: L8
-          description: 11.2 小时
-          icon: file video
-        - name: L9
-          description: 14.8 小时
-          icon: file video
-      - header: 研修专用脚本（上）
-        items:
-        - name: L1
-          icon: book
-        - name: L2
-          icon: book
-        - name: L3
-          icon: book
-        - name: L4
-          icon: book
-        - name: L5
-          icon: book
-        - name: L6
-          icon: book
-        - name: L7
-          icon: book
-        - name: L8
-          icon: book
-        - name: L9
-          icon: book
-        - name: L10
-          icon: book
-      - header: 普通作业
-        items:
-        - name: L1
-          icon: file alternate
-        - name: L2
-          icon: file alternate
-        - name: L3
-          icon: file alternate
-        - name: L4
-          icon: file alternate
-        - name: L5
-          icon: file alternate
-        - name: L6
-          icon: file alternate
-        - name: L7
-          icon: file alternate
-        - name: L8
-          icon: file alternate
-      - header: 学术阅读作业
-        items:
-        - name: R1-2
-          icon: file alternate
-        - name: R3-4
-          icon: file alternate
-        - name: R5-6
-          icon: file alternate
-        - name: R7-8
-          icon: file alternate
-        - name: R9-10
-          icon: file alternate
-      - header: 阶段测验
-        items:
-        - name: Test 1-5
-          icon: pencil alternate
-        - name: Test 6-9
-          icon: pencil alternate
-      - header: 「VB查词」技术蓝图
-        items:
-        - name: VB电子词典查词流程指南
-          icon: book
-      - header: 辅助材料与说明文档
-        items:
-        - name: 研修指南
-          icon: book
-        - name: 总论拓展书单
-          icon: book
-        - name: 研修全流程与各节点任务指南
-          icon: book
-        - name: 单词卡片与技术图
-          icon: images
-        - name: 补充答疑材料
-          icon: file alternate
-    - header: 进阶研修
-      description: 非公开部分
-      sub_sections:
-      - header: 研修标准视频
-        items:
-        - name: L11
-          icon: file video
-        - name: L12
-          icon: file video
-        - name: L13
-          icon: file video
-        - name: L14
-          icon: file video
-      - header: 研修专用脚本（中、下）
-        items:
-        - name: L11
-          icon: book
-        - name: L12
-          icon: book
-        - name: L13
-          icon: book
-        - name: L14
-          icon: book
-        - name: L15
-          icon: book
   - header: 内容大纲
     sections:
     - header: 总论
@@ -278,3 +132,158 @@ vb:
         - name: Lesson 10
           description: 补充与扩展
           icon: olive tag
+  - header: 基础材料构成
+    sections:
+    - header: 标准研修
+      description: 标准部分
+      sub_sections:
+      - header: 研修标准视频
+        description: 总计 105.8 小时
+        label_layout: true
+        items:
+        - name: 总论 Day 1
+          description: 4.5 小时
+          icon: file video
+        - name: 总论 Day 2
+          description: 4.5 小时
+          icon: file video
+        - name: 总论 Day 3
+          description: 4.6 小时
+          icon: file video
+        - name: 总论 Day 4
+          description: 4.6 小时
+          icon: file video
+        - name: L1
+          description: 9.6 小时
+          icon: file video
+        - name: L2
+          description: 7.8 小时
+          icon: file video
+        - name: L3
+          description: 8.5 小时
+          icon: file video
+        - name: L4
+          description: 9.6 小时
+          icon: file video
+        - name: L5
+          description: 9.6 小时
+          icon: file video
+        - name: L6
+          description: 9.1 小时
+          icon: file video
+        - name: L7
+          description: 9.0 小时
+          icon: file video
+        - name: L8
+          description: 11.2 小时
+          icon: file video
+        - name: L9
+          description: 14.8 小时
+          icon: file video
+      - header: 研修专用脚本（上）
+        label_layout: true
+        items:
+        - name: L1
+          icon: book
+        - name: L2
+          icon: book
+        - name: L3
+          icon: book
+        - name: L4
+          icon: book
+        - name: L5
+          icon: book
+        - name: L6
+          icon: book
+        - name: L7
+          icon: book
+        - name: L8
+          icon: book
+        - name: L9
+          icon: book
+        - name: L10
+          icon: book
+      - header: 普通作业
+        label_layout: true
+        items:
+        - name: L1
+          icon: file alternate
+        - name: L2
+          icon: file alternate
+        - name: L3
+          icon: file alternate
+        - name: L4
+          icon: file alternate
+        - name: L5
+          icon: file alternate
+        - name: L6
+          icon: file alternate
+        - name: L7
+          icon: file alternate
+        - name: L8
+          icon: file alternate
+      - header: 学术阅读作业
+        label_layout: true
+        items:
+        - name: R1-2
+          icon: file alternate
+        - name: R3-4
+          icon: file alternate
+        - name: R5-6
+          icon: file alternate
+        - name: R7-8
+          icon: file alternate
+        - name: R9-10
+          icon: file alternate
+      - header: 阶段测验
+        label_layout: true
+        items:
+        - name: Test 1-5
+          icon: pencil alternate
+        - name: Test 6-9
+          icon: pencil alternate
+      - header: 「VB查词」技术蓝图
+        label_layout: true
+        items:
+        - name: VB电子词典查词流程指南
+          icon: book
+      - header: 辅助材料与说明文档
+        label_layout: true
+        items:
+        - name: 研修指南
+          icon: book
+        - name: 总论拓展书单
+          icon: book
+        - name: 研修全流程与各节点任务指南
+          icon: book
+        - name: 单词卡片与技术图
+          icon: images
+        - name: 补充答疑材料
+          icon: file alternate
+    - header: 进阶研修
+      description: 进阶部分
+      sub_sections:
+      - header: 研修标准视频
+        label_layout: true
+        items:
+        - name: L11
+          icon: file video
+        - name: L12
+          icon: file video
+        - name: L13
+          icon: file video
+        - name: L14
+          icon: file video
+      - header: 研修专用脚本（中上）
+        label_layout: true
+        items:
+        - name: L11
+          icon: book
+        - name: L12
+          icon: book
+        - name: L13
+          icon: book
+        - name: L14
+          icon: book
+        - name: L15
+          icon: book

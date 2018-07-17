@@ -1,7 +1,7 @@
 ---
 layout: basic_page
 title: 词汇建造师
-meta: 材料构成与内容大纲
+meta: 内容大纲与基础材料构成
 active_key: vb
 ---
 
@@ -17,16 +17,24 @@ active_key: vb
                         {% if sub_section.description %}<div class="meta">{{ sub_section.description }}</div>{% endif %}
                         <div class="description">
                             {%- if sub_section.items -%}
-                                {%- for item in sub_section.items -%}
-                                    <div>{% if item.icon %}<i class="{{item.icon}} icon"></i>{% endif %}{{ item.name }}{% if item.description %}：<span class="text-grey">{{ item.description }}</span>{% endif %}{% if item.details %}：{% endif %}</div>
-                                    {%- if item.details -%}
-                                        <div class="ui bulleted list">
-                                            {%- for detail in item.details -%}
-                                                <div class="item"><span class="text-grey">{{ detail }}</span></div>
-                                            {%- endfor -%}
-                                        </div>
-                                    {%- endif -%}
-                                {%- endfor -%}
+                                {%- if sub_section.label_layout -%}
+                                    <div class="ui labels">
+                                        {%- for item in sub_section.items -%}
+                                            <div class="ui label">{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.name }}{% if item.description %}<div class="detail">{{ item.description }}</div>{% endif %}</div>
+                                        {%- endfor -%}
+                                    </div>
+                                {%- else -%}
+                                    {%- for item in sub_section.items -%}
+                                        <div>{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.name }}{% if item.description %}：<span class="text-grey">{{ item.description }}</span>{% endif %}{% if item.details %}：{% endif %}</div>
+                                        {%- if item.details -%}
+                                            <div class="ui bulleted list">
+                                                {%- for detail in item.details -%}
+                                                    <div class="item"><span class="text-grey">{{ detail }}</span></div>
+                                                {%- endfor -%}
+                                            </div>
+                                        {%- endif -%}
+                                    {%- endfor -%}
+                                {%- endif -%}
                             {%- endif -%}
                         </div>
                     </div>
