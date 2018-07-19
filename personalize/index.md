@@ -1,6 +1,6 @@
 ---
 layout: page
 title: 定制化服务
-meta: coming soon...
+meta: 内容建设中
 active_key: personalize
 ---

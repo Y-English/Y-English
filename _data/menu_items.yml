@@ -19,8 +19,8 @@
 
   - name: 备考框架
     icon: calendar alternate outline
-    url: /study-plan/
-    active_key: study_plan
+    url: /scheme/
+    active_key: scheme
 
 - name: 学术研修
   icon: flask
