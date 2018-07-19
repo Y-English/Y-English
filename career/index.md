@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 招聘信息
-meta: 更新于2018年7月7日
+meta: 7 July 2018
 active_key: career
 ---
 
