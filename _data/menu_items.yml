@@ -94,6 +94,11 @@
     url: /about/
     active_key: about
 
+  - name: 知识产权
+    icon: gavel
+    url: /legal/
+    active_key: legal
+
   - name: 招聘信息
     icon: user plus
     url: /career/
