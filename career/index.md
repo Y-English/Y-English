@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 招聘信息
-meta: 7 July 2018
+meta: hr@y-english.org
 active_key: career
 ---
 
