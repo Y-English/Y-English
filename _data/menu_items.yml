@@ -100,7 +100,7 @@
     active_key: legal
 
   - name: 招聘信息
-    icon: user plus
+    icon: user tie
     url: /career/
     active_key: career
 
