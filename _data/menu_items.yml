@@ -95,7 +95,7 @@
     active_key: about
 
   - name: 知识产权
-    icon: gavel
+    icon: balance scale
     url: /legal/
     active_key: legal
 
