@@ -47,7 +47,7 @@
     active_key: gre_review
 
 - name: 成绩数据
-  icon: chart bar
+  icon: chart line
   sub_menu_items:
 
   - name: 2017年度数据报告
