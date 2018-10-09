@@ -79,10 +79,6 @@
     height: auto;
 }
 
-.ui.error.header {
-    font-size: 8em;
-}
-
 .ui.cards .qrcode.card .image {
     padding: 1em;
     background: none;
