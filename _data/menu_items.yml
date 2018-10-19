@@ -23,7 +23,7 @@
     active_key: scheme
 
 - name: 学术研修
-  icon: flask
+  icon: microscope
   sub_menu_items:
 
   - name: 研修感言
@@ -32,12 +32,12 @@
     active_key: feedback
 
   - name: 学术观点
-    icon: graduation cap
+    icon: atom
     url: /academic/
     active_key: academic
 
   - name: 词源百科
-    icon: wikipedia w
+    icon: book open
     url: /word-wiki/
     active_key: word_wiki
 
@@ -76,7 +76,7 @@
     active_key: team
 
   - name: 时间线
-    icon: spinner
+    icon: stream
     url: /timeline/
     active_key: timeline
 
