@@ -8,4 +8,4 @@ Website: [www.y-english.org](https://www.y-english.org)
 ## License
 Except where otherwise noted, licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License](/LICENSE)
 
-**Copyright &copy; 2018 Y-English**
+**Copyright &copy; 2019 Y-English**
