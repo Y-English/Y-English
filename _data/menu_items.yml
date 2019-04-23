@@ -50,6 +50,11 @@
   icon: chart line
   sub_menu_items:
 
+  - name: 2018年度数据报告
+    icon: file alternate
+    url: https://stats.y-english.cn/stats/year/2018
+    active_key: false
+
   - name: 2017年度数据报告
     icon: file alternate
     url: https://stats.y-english.cn/stats/year/2017
