@@ -71,7 +71,7 @@ Y-GRE平台提供高度整合的工程化解决方案，并基于技术规范做
 
 自2012上线以来，产出大陆首个Verbal满分170，95%以上注册者Verbal成绩超过150，平均GRE成绩V157.9 Q168.3，平均备考200小时，平均提升12分，总分平均超过大陆地区17分！迄今为止已帮助超过3000名高端申请者取得所需的GRE成绩。
 
-
+- [2018年度数据报告](https://stats.y-english.cn/stats/year/2018)
 - [2017年度数据报告](https://stats.y-english.cn/stats/year/2017)
 - [2016年度数据报告](https://stats.y-english.cn/stats/year/2016)
 
