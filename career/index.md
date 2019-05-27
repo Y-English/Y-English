@@ -34,7 +34,7 @@ active_key: career
 #### 工作地址
 北京市海淀区华清嘉园7号楼1707
 
----
+<div class="ui section divider"></div>
 
 ### 运营管理培训生（汇报上级为云英语技术组）
 
