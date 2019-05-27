@@ -6,14 +6,14 @@ active_key: team
 ---
 
 {%- for section in site.data.members.sections -%}
-    <h2 class="ui dividing header"><span class="text-normal text-teal">{{ section.header }}</span></h2>
+    <h2 class="ui dividing header"><span class="ui teal text text-normal">{{ section.header }}</span></h2>
     {% if section.description %}<p>{{ section.description }}</p>{% endif %}
     {%- if section.members -%}
         <div class="ui very relaxed items">
             {%- for member in section.members -%}
                 <div class="item">
                     <div class="content">
-                        <div class="header">{{ member.name }}{% if member.title %} <span class="text-normal text-grey">{{ member.title }}</span>{% endif %}</div>
+                        <div class="header">{{ member.name }}{% if member.title %} <span class="ui grey text text-normal">{{ member.title }}</span>{% endif %}</div>
                         {% if member.positions %}<div class="meta">{% for item in member.positions %}{% unless forloop.first %} &middot; {% endunless %}{{ item }}{% endfor %}</div>{% endif %}
                         <div class="description">
                             <div class="ui bulleted list">

@@ -5,7 +5,7 @@ layout: default
 <div class="ui main vertical segment">
     <div class="ui center aligned page-title text container">
         <h1 class="ui header">{{ page.title }}</h1>
-        <div class="text-grey">{{ page.date | date_to_long_string }}</div>
+        <div><span class="ui grey text">{{ page.date | date_to_long_string }}</span></div>
     </div>
     <div class="ui page-content text container">
         {% if page.thumbnail %}<p><img src="{{ page.thumbnail | relative_url }}" alt="thumbnail"></p>{% endif %}

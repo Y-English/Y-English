@@ -6,9 +6,9 @@ active_key: vb
 ---
 
 {%- for category in site.data.syllabus.vb.categories -%}
-    <h2 class="ui dividing header"><span class="text-normal text-teal">{{ category.header }}</span></h2>
+    <h2 class="ui dividing header"><span class="ui teal text text-normal">{{ category.header }}</span></h2>
     {%- for section in category.sections -%}
-        <h2 class="ui header"><span class="text-normal text-grey">{{ section.header }}</span>{% if section.description %}<div class="ui horizontal label">{{ section.description }}</div>{% endif %}</h2>
+        <h2 class="ui header"><span class="ui grey text text-normal">{{ section.header }}</span>{% if section.description %}<div class="ui horizontal label">{{ section.description }}</div>{% endif %}</h2>
         <div class="ui very relaxed items">
             {%- for sub_section in section.sub_sections -%}
                 <div class="item">
@@ -25,11 +25,11 @@ active_key: vb
                                     </div>
                                 {%- else -%}
                                     {%- for item in sub_section.items -%}
-                                        <div>{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.name }}{% if item.description %}：<span class="text-grey">{{ item.description }}</span>{% endif %}{% if item.details %}：{% endif %}</div>
+                                        <div>{% if item.icon %}<i class="{{ item.icon }} icon"></i>{% endif %}{{ item.name }}{% if item.description %}：<span class="ui grey text">{{ item.description }}</span>{% endif %}{% if item.details %}：{% endif %}</div>
                                         {%- if item.details -%}
                                             <div class="ui bulleted list">
                                                 {%- for detail in item.details -%}
-                                                    <div class="item"><span class="text-grey">{{ detail }}</span></div>
+                                                    <div class="item"><span class="ui grey text">{{ detail }}</span></div>
                                                 {%- endfor -%}
                                             </div>
                                         {%- endif -%}
