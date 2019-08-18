@@ -22,6 +22,11 @@
     url: /scheme/
     active_key: scheme
 
+  - name: LSAT辅导
+    icon: chalkboard teacher
+    url: /lsat/
+    active_key: lsat
+
 - name: 学术研修
   icon: microscope
   sub_menu_items:
